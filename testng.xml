@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="url" value="google.com"></parameter>
+	  <parameter name="site" value="linkedin.com"></parameter>
+	 
+	  <groups>
+		  <run>
+			 
+		  </run>
+	  </groups>
+    <classes>
+      <class name="Grouping.Testng2.Group1"/>
+      <class name="Grouping.Testng2.Group2"/>
+      <class name="Grouping.Testng2.Group3"/>
+      <class name="Grouping.Testng2.Group4"/>
+      <class name="Grouping.Testng2.Prioritizing"></class>
+       <class name="Grouping.Testng2.Parameterization"></class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 

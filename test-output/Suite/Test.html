@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Dec 04 16:32:56 PKT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (68 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Grouping.Testng2.Prioritizing.pri3()'><b>pri3</b><br>Test class: Grouping.Testng2.Prioritizing</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Prioritizing@2ef3eef9</td></tr>
+<tr>
+<td title='Grouping.Testng2.Parameterization.pra33()'><b>pra33</b><br>Test class: Grouping.Testng2.Parameterization<br>Parameters: linkedin.com</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Parameterization@243c4f91</td></tr>
+<tr>
+<td title='Grouping.Testng2.Group1.fin22()'><b>fin22</b><br>Test class: Grouping.Testng2.Group1</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Group1@7ed7259e</td></tr>
+<tr>
+<td title='Grouping.Testng2.Group2.fin4()'><b>fin4</b><br>Test class: Grouping.Testng2.Group2</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Group2@708f5957</td></tr>
+<tr>
+<td title='Grouping.Testng2.Group3.fin5()'><b>fin5</b><br>Test class: Grouping.Testng2.Group3</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Group3@68999068</td></tr>
+<tr>
+<td title='Grouping.Testng2.Prioritizing.pri4()'><b>pri4</b><br>Test class: Grouping.Testng2.Prioritizing</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Prioritizing@2ef3eef9</td></tr>
+<tr>
+<td title='Grouping.Testng2.Group1.fin23()'><b>fin23</b><br>Test class: Grouping.Testng2.Group1</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Group1@7ed7259e</td></tr>
+<tr>
+<td title='Grouping.Testng2.Group1.fin2()'><b>fin2</b><br>Test class: Grouping.Testng2.Group1</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Group1@7ed7259e</td></tr>
+<tr>
+<td title='Grouping.Testng2.Parameterization.pra44()'><b>pra44</b><br>Test class: Grouping.Testng2.Parameterization</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Parameterization@243c4f91</td></tr>
+<tr>
+<td title='Grouping.Testng2.Group2.fin3()'><b>fin3</b><br>Test class: Grouping.Testng2.Group2</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Group2@708f5957</td></tr>
+<tr>
+<td title='Grouping.Testng2.Group3.fin6()'><b>fin6</b><br>Test class: Grouping.Testng2.Group3</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Group3@68999068</td></tr>
+<tr>
+<td title='Grouping.Testng2.Prioritizing.pri1()'><b>pri1</b><br>Test class: Grouping.Testng2.Prioritizing</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Prioritizing@2ef3eef9</td></tr>
+<tr>
+<td title='Grouping.Testng2.Prioritizing.pri2()'><b>pri2</b><br>Test class: Grouping.Testng2.Prioritizing</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Prioritizing@2ef3eef9</td></tr>
+<tr>
+<td title='Grouping.Testng2.Parameterization.pra22()'><b>pra22</b><br>Test class: Grouping.Testng2.Parameterization</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Parameterization@243c4f91</td></tr>
+<tr>
+<td title='Grouping.Testng2.Group4.fin8()'><b>fin8</b><br>Test class: Grouping.Testng2.Group4</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Group4@7722c3c3</td></tr>
+<tr>
+<td title='Grouping.Testng2.Parameterization.pra11()'><b>pra11</b><br>Test class: Grouping.Testng2.Parameterization<br>Parameters: google.com</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Parameterization@243c4f91</td></tr>
+<tr>
+<td title='Grouping.Testng2.Group4.fin7()'><b>fin7</b><br>Test class: Grouping.Testng2.Group4</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Group4@7722c3c3</td></tr>
+<tr>
+<td title='Grouping.Testng2.Group1.fin()'><b>fin</b><br>Test class: Grouping.Testng2.Group1</td>
+<td></td>
+<td>0</td>
+<td>Grouping.Testng2.Group1@7ed7259e</td></tr>
+</table><p>
+</body>
+</html>

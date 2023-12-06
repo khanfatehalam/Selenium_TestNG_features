@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-04T16:32:56 PKT" name="Suite" finished-at="2023-12-04T16:32:56 PKT" duration-ms="68">
+    <groups>
+      <group name="Group1">
+        <method signature="Group1.fin()[pri:0, instance:Grouping.Testng2.Group1@7ed7259e]" name="fin" class="Grouping.Testng2.Group1"/>
+        <method signature="Group1.fin23()[pri:0, instance:Grouping.Testng2.Group1@7ed7259e]" name="fin23" class="Grouping.Testng2.Group1"/>
+        <method signature="Group2.fin4()[pri:0, instance:Grouping.Testng2.Group2@708f5957]" name="fin4" class="Grouping.Testng2.Group2"/>
+        <method signature="Group3.fin6()[pri:0, instance:Grouping.Testng2.Group3@68999068]" name="fin6" class="Grouping.Testng2.Group3"/>
+        <method signature="Group4.fin7()[pri:0, instance:Grouping.Testng2.Group4@7722c3c3]" name="fin7" class="Grouping.Testng2.Group4"/>
+      </group> <!-- Group1 -->
+    </groups>
+    <test started-at="2023-12-04T16:32:56 PKT" name="Test" finished-at="2023-12-04T16:32:56 PKT" duration-ms="68">
+      <class name="Grouping.Testng2.Prioritizing">
+        <test-method signature="pri4()[pri:1, instance:Grouping.Testng2.Prioritizing@2ef3eef9]" started-at="2023-12-04T16:32:56 PKT" name="pri4" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pri4 -->
+        <test-method signature="pri2()[pri:2, instance:Grouping.Testng2.Prioritizing@2ef3eef9]" started-at="2023-12-04T16:32:56 PKT" name="pri2" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pri2 -->
+        <test-method signature="pri3()[pri:3, instance:Grouping.Testng2.Prioritizing@2ef3eef9]" started-at="2023-12-04T16:32:56 PKT" name="pri3" finished-at="2023-12-04T16:32:56 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pri3 -->
+        <test-method signature="pri1()[pri:4, instance:Grouping.Testng2.Prioritizing@2ef3eef9]" started-at="2023-12-04T16:32:56 PKT" name="pri1" finished-at="2023-12-04T16:32:56 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pri1 -->
+      </class> <!-- Grouping.Testng2.Prioritizing -->
+      <class name="Grouping.Testng2.Group1">
+        <test-method signature="fin()[pri:0, instance:Grouping.Testng2.Group1@7ed7259e]" started-at="2023-12-04T16:32:56 PKT" name="fin" finished-at="2023-12-04T16:32:56 PKT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin -->
+        <test-method signature="fin2()[pri:0, instance:Grouping.Testng2.Group1@7ed7259e]" started-at="2023-12-04T16:32:56 PKT" name="fin2" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin2 -->
+        <test-method signature="fin22()[pri:0, instance:Grouping.Testng2.Group1@7ed7259e]" started-at="2023-12-04T16:32:56 PKT" name="fin22" finished-at="2023-12-04T16:32:56 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin22 -->
+        <test-method signature="fin23()[pri:0, instance:Grouping.Testng2.Group1@7ed7259e]" started-at="2023-12-04T16:32:56 PKT" name="fin23" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin23 -->
+      </class> <!-- Grouping.Testng2.Group1 -->
+      <class name="Grouping.Testng2.Group2">
+        <test-method signature="fin3()[pri:0, instance:Grouping.Testng2.Group2@708f5957]" started-at="2023-12-04T16:32:56 PKT" name="fin3" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin3 -->
+        <test-method signature="fin4()[pri:0, instance:Grouping.Testng2.Group2@708f5957]" started-at="2023-12-04T16:32:56 PKT" name="fin4" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin4 -->
+      </class> <!-- Grouping.Testng2.Group2 -->
+      <class name="Grouping.Testng2.Group3">
+        <test-method signature="fin5()[pri:0, instance:Grouping.Testng2.Group3@68999068]" started-at="2023-12-04T16:32:56 PKT" name="fin5" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin5 -->
+        <test-method signature="fin6()[pri:0, instance:Grouping.Testng2.Group3@68999068]" started-at="2023-12-04T16:32:56 PKT" name="fin6" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin6 -->
+      </class> <!-- Grouping.Testng2.Group3 -->
+      <class name="Grouping.Testng2.Parameterization">
+        <test-method signature="pra11(java.lang.String)[pri:0, instance:Grouping.Testng2.Parameterization@243c4f91]" started-at="2023-12-04T16:32:56 PKT" name="pra11" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pra11 -->
+        <test-method signature="pra22()[pri:0, instance:Grouping.Testng2.Parameterization@243c4f91]" started-at="2023-12-04T16:32:56 PKT" name="pra22" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pra22 -->
+        <test-method signature="pra33(java.lang.String)[pri:0, instance:Grouping.Testng2.Parameterization@243c4f91]" started-at="2023-12-04T16:32:56 PKT" name="pra33" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[linkedin.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pra33 -->
+        <test-method signature="pra44()[pri:0, instance:Grouping.Testng2.Parameterization@243c4f91]" started-at="2023-12-04T16:32:56 PKT" name="pra44" finished-at="2023-12-04T16:32:56 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pra44 -->
+      </class> <!-- Grouping.Testng2.Parameterization -->
+      <class name="Grouping.Testng2.Group4">
+        <test-method signature="fin7()[pri:0, instance:Grouping.Testng2.Group4@7722c3c3]" started-at="2023-12-04T16:32:56 PKT" name="fin7" finished-at="2023-12-04T16:32:56 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin7 -->
+        <test-method signature="fin8()[pri:0, instance:Grouping.Testng2.Group4@7722c3c3]" started-at="2023-12-04T16:32:56 PKT" name="fin8" finished-at="2023-12-04T16:32:56 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fin8 -->
+      </class> <!-- Grouping.Testng2.Group4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
